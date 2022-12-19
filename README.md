@@ -6,8 +6,8 @@
 
 
 
-With over 5000 images in grayscale, grouped into one of the following classes: 'anger', 'contempt', 'disgust', 'fear', 'happiness', 'neutrality', 'sadness', and 'surprise', the task at hand was straightforward:
-Build a deep learning model that predicts someone's mood in an image by simply supplying my model with the url of the image. I used a pretrained Xception model to achieve this task.
+With over 5000 images, grouped into one of the following classes: 'anger', 'contempt', 'disgust', 'fear', 'happiness', 'neutrality', 'sadness', and 'surprise', the task at hand was straightforward:
+Build a deep learning model that predicts someone's emotion in an image by simply supplying my model with the url of the image. I used a pretrained Xception model to achieve this task.
 
 Here is a breakdown of how to run this project:
 1. Clone this repo.
