@@ -43,8 +43,9 @@ def lambda_handler(event, context):
     url = event['url']
     X = preprocessor.from_url(url)
     preds = predict(X)
-    results = decode_predictions(preds)
-    return results
+    answer = decode_predictions(preds)
+    
+    return max(answer, key=answer.get)
 
 
 
